@@ -12,9 +12,9 @@ function Header() {
         <h5 className="text-light">Software engineer</h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">
+        {/*<div className="me">
           <img src={Marwan} alt="me" className="me_img"/>
-        </div>
+  </div>*/}
         <a href="#contact" className="scroll_down">
           Scroll Down
         </a>

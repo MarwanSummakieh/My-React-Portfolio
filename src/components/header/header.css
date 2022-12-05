@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 10rem;
     overflow: hidden;
 }
 .header_container{
@@ -10,7 +10,7 @@ header{
 }
 /* CTA */
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
     gap: 0.8rem;
     justify-content: center;
@@ -31,25 +31,6 @@ header{
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-}
-
-.me{
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left : 48%;
-    transform: translate(-50%);
-    margin: 1rem;
-    border-top-left-radius: 12rem;
-    border-top-right-radius: 12rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    overflow: hidden;
-}
-.me_img{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
 }
 
 .scroll_down{
