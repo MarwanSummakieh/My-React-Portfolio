@@ -9,7 +9,7 @@ import { TbBrandVue } from "react-icons/tb";
 import { GrNode } from "react-icons/gr";
 import { DiJava } from "react-icons/di";
 import { SiDotnet, SiMicrosoftazure } from "react-icons/si";
-import { SiMicrosoftsqlserver, SiPostgresql } from "react-icons/si";
+import { SiMicrosoftsqlserver, SiPostgresql, SiUnity} from "react-icons/si";
 
 function Skills() {
   return (
@@ -52,6 +52,12 @@ function Skills() {
             <article className="exp_details">
               <TbBrandVue className="exp_details_icon"/>
               <h4>Vue.JS</h4>
+              <small className="text-light">Begginer</small>
+            </article>
+
+            <article className="exp_details">
+              <SiUnity className="exp_details_icon"/>
+              <h4>Unity</h4>
               <small className="text-light">Begginer</small>
             </article>
           </div>
