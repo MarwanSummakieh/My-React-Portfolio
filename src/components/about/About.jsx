@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import ColorMe from "../../assets/ColorMe.jpg";
+import Marwan from "../../assets/Marwan.jpg";
 import { IoSchoolOutline } from "react-icons/io5";
-import {AiOutlineProject} from "react-icons/ai";
-import {TbCertificate} from "react-icons/tb";
+import { AiOutlineProject } from "react-icons/ai";
+import { TbCertificate } from "react-icons/tb";
 
 function About() {
   return (
@@ -12,9 +12,7 @@ function About() {
       <h2>About Me</h2>
       <div className="container about_container">
         <div className="about_me">
-          <div className="about_me_image">
-            <img src={ColorMe} alt="ColorMe" />
-          </div>
+          <img src={Marwan} alt="ColorMe" className="about_me_image" />
         </div>
 
         <div className="about_content">
@@ -34,12 +32,17 @@ function About() {
               <h5>Certificate</h5>
               <small>Coursera certified</small>
             </article>
-             </div>
-             <p>As of the the summer of 2022 I am officially a software engineer. I have built several projects throughout my studies and independent courses. right now I am focoused on front-end development and cloud compouting with Azure</p>
-         
+          </div>
+          <p>
+            As of the the summer of 2022 I am officially a software engineer. I
+            have built several projects throughout my studies and independent
+            courses. right now I am focoused on front-end development and cloud
+            compouting with Azure
+          </p>
+
           <a href="#contact" className="btn btn-primary">
-              Let's talk
-            </a>
+            Let's talk
+          </a>
         </div>
       </div>
     </section>

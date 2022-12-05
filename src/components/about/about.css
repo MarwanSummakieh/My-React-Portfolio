@@ -17,8 +17,9 @@
   place-items: center;
 }
 .about_me_image {
-    aspect-ratio: 1/1;
+aspect-ratio: 1/1;
   border-radius: 2rem;
+  height: 100%;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);

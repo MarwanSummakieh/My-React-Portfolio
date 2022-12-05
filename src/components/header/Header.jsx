@@ -1,6 +1,5 @@
 import React from "react";
 import CTA from "./CTA";
-import Marwan from "../../assets/Marwan.jpg";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 function Header() {
