@@ -37,7 +37,7 @@ function About() {
             As of the the summer of 2022 I am officially a software engineer. I
             have built several projects throughout my studies and independent
             courses. right now I am focoused on front-end development and cloud
-            compouting with Azure
+            computing with Azure
           </p>
 
           <a href="#contact" className="btn btn-primary">
