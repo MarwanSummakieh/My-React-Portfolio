@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 2rem 0;
 }
 .skills_container >div{
     background:var(--color-bg-varient);
@@ -28,16 +27,38 @@
     gap: 2rem;
 }
 /*tablets*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 800px){
     .skills_container{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .skills_container >div{
+        background:var(--color-bg-varient);
+        padding: 1% 1%;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: var(--transition);
+        margin-top: 2rem;
+    }
+    .experience_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-area: auto;
+        grid-gap: 1%;
+    }
 
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     .skills_container{
         grid-template-columns: 1fr;
         margin: 0 auto;
+    }
+    .skills_container >div{
+        background:var(--color-bg-varient);
+        padding: 2rem 1%;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: var(--transition);
+        margin-top: 2rem;
     }
 }

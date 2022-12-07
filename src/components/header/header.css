@@ -44,8 +44,11 @@ header{
 
 /*tablets*/
 @media screen and (max-width: 1024px){
-    header{
-        height:100vh
+    .scroll_down, .header_socials{
+        display: none;
+    }
+    .header{
+        width: 1vw;
     }
 }
 @media screen and (max-width: 600px){

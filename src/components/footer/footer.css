@@ -14,3 +14,10 @@
     color: var(--color-white);
     margin: 1rem;
 }
+@media screen and (max-width: 500px){
+    .socials{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    
