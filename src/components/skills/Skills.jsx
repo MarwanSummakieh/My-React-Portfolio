@@ -52,13 +52,13 @@ function Skills() {
             <article className="exp_details">
               <TbBrandVue className="exp_details_icon"/>
               <h4>Vue.JS</h4>
-              <small className="text-light">Begginer</small>
+              <small className="text-light">Beginner</small>
             </article>
 
             <article className="exp_details">
               <SiUnity className="exp_details_icon"/>
               <h4>Unity</h4>
-              <small className="text-light">Begginer</small>
+              <small className="text-light">Beginner</small>
             </article>
           </div>
         </div>
@@ -93,7 +93,7 @@ function Skills() {
             <article className="exp_details">
               <SiPostgresql className="exp_details_icon"/>
               <h4>PostgresSQL</h4>
-              <small className="text-light">Intermediet</small>
+              <small className="text-light">Intermediate</small>
             </article>
 
             <article className="exp_details">
