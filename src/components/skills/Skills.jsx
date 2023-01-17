@@ -9,7 +9,7 @@ import { TbBrandVue } from "react-icons/tb";
 import { GrNode } from "react-icons/gr";
 import { DiJava } from "react-icons/di";
 import { SiDotnet, SiMicrosoftazure } from "react-icons/si";
-import { SiMicrosoftsqlserver, SiPostgresql, SiUnity} from "react-icons/si";
+import { SiMicrosoftsqlserver, SiPostgresql, SiUnity, SiAmazonaws} from "react-icons/si";
 
 function Skills() {
   return (
@@ -99,6 +99,12 @@ function Skills() {
             <article className="exp_details">
               <SiMicrosoftazure className="exp_details_icon"/>
               <h4>Azure Cloud</h4>
+              <small className="text-light">Intermediate</small>
+            </article>
+
+            <article className="exp_details">
+              <SiAmazonaws className="exp_details_icon"/>
+              <h4>Amazon Web Services</h4>
               <small className="text-light">Intermediate</small>
             </article>
           </div>
